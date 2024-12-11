@@ -21,6 +21,8 @@ const GetIn = () => {
     if (college !== "Select College" && role !== "Select Role") {
       if (role == "Student") {
         window.location.href = "/Studentlogin";
+      } else if (role == "Professor") {
+        window.location.href = "/Professorlogin";
       }
     } else {
       alert("Please select both college and role!");

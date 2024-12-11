@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import GetIn from "../pages/GetIn";
 import StudentLogin from "../pages/StudentLogin";
 import Signup from "../pages/Signup";
+import ProfessorLogin from "../pages/ProfessorLogin";
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="/getin" element={<GetIn />} />
         <Route path="/Studentlogin" element={<StudentLogin />} />
+        <Route path="/ProfessorLogin" element={<ProfessorLogin />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
