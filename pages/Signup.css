@@ -1,0 +1,97 @@
+/* General container styling */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #d4fc79, #96e6a1);
+  }
+  
+  /* Form styling */
+  .signup-form {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title styling */
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Field styling */
+  .signup-field {
+    margin-bottom: 20px;
+  }
+  
+  .signup-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 8px;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3e5d4;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  .signup-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Input with button styling */
+  .input-with-button {
+    display: flex;
+  }
+  
+  .send-otp-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-otp-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Submit button styling */
+  .signup-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
