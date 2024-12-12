@@ -1,8 +1,7 @@
-# React + Vite
+# COLLSPACE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Problem: 
+1. No place for College Students to study online ( college centric ) like college subject's study materials, circulars, notifications etc.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Solution: Collspace
+Wwe will solve this problem by allowing every college to create their own space and upload their materials, circulars, etc., and distribute to students.
